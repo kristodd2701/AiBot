@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 class Program
 {
     private static readonly HttpClient client = new HttpClient();
-    private static readonly string apiKey = "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";
+    private static readonly string apiKey = "************************************************************";
     private const string apiUrl = "https://api.groq.com/v1/chat/completions";
     private static List<dynamic> messageHistory = new List<dynamic>();
     private static string selectedModel = "llama3-8b-8192";
